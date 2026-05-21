@@ -192,6 +192,8 @@
                     response = "If arrested, you have the right to know the grounds of arrest, the right to remain silent, the right to consult a lawyer, and you must be produced before a magistrate within 24 hours.";
                 } else if (lowerMsg.includes("amicus") || lowerMsg.includes("mediate") || lowerMsg.includes("dispute")) {
                     response = "We offer online dispute resolution! You can use our platform to settle disputes peacefully and affordably outside of court.";
+                    } else if (lowerMsg.includes("cheque") || lowerMsg.includes("bounce")) {
+    response = "A bounced cheque is a criminal offense under Section 138 of the Negotiable Instruments Act. A legal notice must be sent within 30 days of the bounce.";
                 } else if (lowerMsg.includes("hi") || lowerMsg.includes("hello")) {
                     response = "Hello! How can I help you understand your legal rights today?";
                 }
